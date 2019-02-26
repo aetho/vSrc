@@ -1,0 +1,6 @@
+{
+	"name": "vScrc",
+	"version": "1.0",
+	"description": "vSrc (Video-Source) is a chrome extension that allows you to get the source url of a video.",
+	"manifest_version": 1
+}
