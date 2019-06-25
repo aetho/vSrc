@@ -1,6 +1,16 @@
 {
-	"name": "vScrc",
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+	"name": "vScrc Dev",
 	"version": "1.0",
 	"description": "vSrc (Video-Source) is a chrome extension that allows you to get the source url of a video.",
-	"manifest_version": 1
+	"permissions": ["activeTab", "declarativeContent", "storage"],
+	"background": {
+		"scripts": ["background.js"],
+		"persistent": false
+	},
+	"page_action": {
+		"default_popup": "popup.html"
+	},
+	"manifest_version": 2
 }
